@@ -48,13 +48,19 @@ const Contact = () => {
         <div className="social-media">
           <h2>Follow Us</h2>
           <div className="social-icons">
-            <a href="#" className="social-link">
+            <a
+              href="https://www.facebook.com/americanledprocom"
+              className="social-link"
+            >
               <FaFacebook />
             </a>
             <a href="#" className="social-link">
               <FaTwitter />
             </a>
-            <a href="#" className="social-link">
+            <a
+              href="https://www.instagram.com/americanledproofficial/"
+              className="social-link"
+            >
               <FaInstagram />
             </a>
           </div>

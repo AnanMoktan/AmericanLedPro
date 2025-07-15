@@ -23,10 +23,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-image">
-          <img
-            src="https://via.placeholder.com/500x300/2a5c8b/ffffff?text=Our+Warehouse"
-            alt="Our Warehouse"
-          />
+          <img src="/logo/2021-01-22.webp" alt="Our Warehouse" />
         </div>
       </div>
     </div>

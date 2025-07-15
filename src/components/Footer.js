@@ -18,13 +18,13 @@ const Footer = () => {
           <h3>American LED Pro Wholesale</h3>
           <p>Providing high-quality LED lighting solutions since 2010.</p>
           <div className="social-icons">
-            <a href="#">
+            <a href="https://www.facebook.com/americanledprocom/">
               <FaFacebook />
             </a>
             <a href="#">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/americanledproofficial/">
               <FaInstagram />
             </a>
             <a href="#">
