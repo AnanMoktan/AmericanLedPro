@@ -154,7 +154,8 @@ export const products = [
     id: 10,
     name: "LED SHOE BOX LIGHT –300W comes with slip fitter or c or u bracket, with or without photo cell option and color options bronze and black",
     price: 205,
-    image: "/products/shoebox-light/300wsbl/300wsblfv.png",
+    image:
+      process.env.PUBLIC_URL + "/products/shoebox-light/300wsbl/300wsblfv.png",
     category: "shoe-box-light",
     description:
       "Illuminate vast outdoor spaces with superior clarity and power using the American LED Pro 300W LED Shoebox Light. This high-performance fixture is engineered for demanding applications such as large parking lots, industrial parks, stadiums, and expansive area lighting where maximum brightness is crucial. Operating on a versatile AC120-277V input, it delivers a crisp, bright 5700K (Cool White) illumination, enhancing visibility and security. Designed with a durable brown finish for aesthetic integration, this 300W shoebox light provides robust, long-lasting performance, making it an ideal choice for powerful, efficient outdoor area lighting.",

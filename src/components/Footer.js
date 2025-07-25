@@ -1,5 +1,6 @@
 // src/components/Footer.js
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaPhone,
   FaEnvelope,
@@ -48,32 +49,31 @@ const Footer = () => {
           <h4>Product Categories</h4>
           <ul>
             <li>
-              <a href="/category/flood-light">Flood Lights</a>
+              <Link to="/category/flood-light">Flood Lights</Link>
             </li>
             <li>
-              <a href="/category/led-panel">LED Panels</a>
+              <Link to="/category/led-panel">LED Panels</Link>
             </li>
             <li>
-              <a href="/category/shoe-box-light">Shoe Box Lights</a>
+              <Link to="/category/shoe-box-light">Shoe Box Lights</Link>
             </li>
             <li>
-              <a href="/category/canopy-light">Canopy Lights</a>
-            </li>
-
-            <li>
-              <a href="/category/dusk-to-dawn-light">Dusk To Dawn Lights</a>
+              <Link to="/category/canopy-light">Canopy Lights</Link>
             </li>
             <li>
-              <a href="/category/pole-light">Pole Lights</a>
+              <Link to="/category/dusk-to-dawn-light">Dusk To Dawn Lights</Link>
             </li>
             <li>
-              <a href="/category/ufo-light">UFO / High Bay Lights</a>
+              <Link to="/category/pole-light">Pole Lights</Link>
             </li>
             <li>
-              <a href="/category/wall-pack-light">Wall Pack Lights</a>
+              <Link to="/category/ufo-light">UFO / High Bay Lights</Link>
             </li>
             <li>
-              <a href="/category/accessories">Accessories</a>
+              <Link to="/category/wall-pack-light">Wall Pack Lights</Link>
+            </li>
+            <li>
+              <Link to="/category/accessories">Accessories</Link>
             </li>
           </ul>
         </div>

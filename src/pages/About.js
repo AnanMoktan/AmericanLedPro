@@ -23,7 +23,10 @@ const About = () => {
           </p>
         </div>
         <div className="about-image">
-          <img src="/logo/2021-01-22.webp" alt="Our Warehouse" />
+          <img
+            src={process.env.PUBLIC_URL + "/logo/2021-01-22.webp"}
+            alt="Our Warehouse"
+          />
         </div>
       </div>
     </div>
