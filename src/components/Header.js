@@ -1,7 +1,7 @@
 // src/components/Header.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FiShoppingCart, FiMenu, FiX } from "react-icons/fi";
+import { FiMenu, FiX } from "react-icons/fi";
 import { categories } from "../data/products";
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
         <div className="logo">
           <Link to="/">
             <img
-              src={process.env.PUBLIC_URL + "/logo/amercan LED PRO.jpg"}
+              src={process.env.PUBLIC_URL + "/logo/amercan LED PRO.png"}
               alt="American LED pro Wholesale Logo"
             />
           </Link>
@@ -47,13 +47,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
-        <div className="cart-icon">
-          <Link to="#">
-            <FiShoppingCart />
-            <span className="cart-count">0</span>
-          </Link>
-        </div>
       </div>
     </header>
   );

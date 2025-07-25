@@ -6,8 +6,8 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaFacebook,
-  FaInstagram,
 } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,12 +17,12 @@ const Footer = () => {
           <h3>American LED Pro Wholesale</h3>
           <p>Providing high-quality LED lighting solutions since 2010.</p>
           <div className="social-icons">
-            <a href="https://www.facebook.com/americanledprocom/">
+            <a href="https://www.facebook.com/profile.php?id=61578399809060">
               <FaFacebook />
             </a>
 
-            <a href="https://www.instagram.com/americanledproofficial/">
-              <FaInstagram />
+            <a href="https://t.me/Americanledpro">
+              <FaTelegramPlane />
             </a>
           </div>
         </div>
@@ -85,6 +85,8 @@ const Footer = () => {
               <FaPhone /> (510) 688-4433
               <br />
               <FaPhone /> (972) 685-0112
+              <br />
+              <FaPhone /> (469) 381-6266
             </li>
             <li>
               <FaEnvelope />

@@ -5,10 +5,8 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaFacebook,
-  FaTwitter,
-  FaInstagram,
 } from "react-icons/fa";
-
+import { FaTelegramPlane } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="contact-page">
@@ -49,19 +47,14 @@ const Contact = () => {
           <h2>Follow Us</h2>
           <div className="social-icons">
             <a
-              href="https://www.facebook.com/americanledprocom"
+              href="https://www.facebook.com/profile.php?id=61578399809060"
               className="social-link"
             >
               <FaFacebook />
             </a>
-            <a href="#" className="social-link">
-              <FaTwitter />
-            </a>
-            <a
-              href="https://www.instagram.com/americanledproofficial/"
-              className="social-link"
-            >
-              <FaInstagram />
+
+            <a href="https://t.me/Americanledpro" className="social-link">
+              <FaTelegramPlane />
             </a>
           </div>
           <div className="map-container">

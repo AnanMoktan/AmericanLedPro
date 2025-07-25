@@ -277,7 +277,7 @@ export const products = [
     description: "",
     images: [
       process.env.PUBLIC_URL + "/products/pole-light/pole2.png",
-      "/products/pole-light/pole.png",
+      process.env.PUBLIC_URL + "/products/pole-light/pole.png",
     ],
   },
   {
@@ -371,7 +371,7 @@ export const products = [
     ],
   },
   {
-    id: 26,
+    id: 24,
     name: "LED full cut-off WALL PACK LIGHT – 120W",
     price: 70,
     image:
@@ -391,7 +391,7 @@ export const products = [
     ],
   },
   {
-    id: 27,
+    id: 25,
     name: "half circle LED WALL PACK LIGHT – 120W adjustable power cct 5k ",
     price: 85,
     image:
@@ -411,7 +411,7 @@ export const products = [
     ],
   },
   {
-    id: 28,
+    id: 26,
     name: "mini LED WALL PACK LIGHT – 20W/30w options ",
     price: 100,
     image:
@@ -432,7 +432,7 @@ export const products = [
   // ACCESSORIES (9)
 
   {
-    id: 30,
+    id: 27,
     name: "180 Degree Double Bullhorn Round Bracket",
     price: 38,
     image:
@@ -446,7 +446,7 @@ export const products = [
     ],
   },
   {
-    id: 31,
+    id: 28,
     name: "180 Degree Double Bullhorn Square Bracket",
     price: 38,
     image:
@@ -460,7 +460,7 @@ export const products = [
     ],
   },
   {
-    id: 32,
+    id: 29,
     name: "180 Degree Triple Bullhorn round Bracket",
     price: 50,
     image:
@@ -474,7 +474,7 @@ export const products = [
     ],
   },
   {
-    id: 33,
+    id: 30,
     name: "120 Degree Triple Bullhorn round Brackets",
     price: 65,
     image:
@@ -488,7 +488,7 @@ export const products = [
     ],
   },
   {
-    id: 34,
+    id: 31,
     name: "90 Degree Quad bullhorn Round Brackets",
     price: 30,
     image:
@@ -502,7 +502,7 @@ export const products = [
     ],
   },
   {
-    id: 35,
+    id: 32,
     name: "180 Degree Quad inline bullhorn Square Brackets",
     price: 30,
     image:
@@ -516,7 +516,7 @@ export const products = [
     ],
   },
   {
-    id: 36,
+    id: 33,
     name: "Single Straight Arms Brackets",
     price: 28,
     image:
@@ -530,7 +530,7 @@ export const products = [
     ],
   },
   {
-    id: 37,
+    id: 34,
     name: "90 degree double Straight Arms Brackets",
     price: 28,
     image:
@@ -544,7 +544,7 @@ export const products = [
     ],
   },
   {
-    id: 38,
+    id: 35,
     name: "180 degree double Straight Arms Brackets",
     price: 28,
     image:
@@ -558,7 +558,7 @@ export const products = [
     ],
   },
   {
-    id: 39,
+    id: 36,
     name: "120 degree triple Straight Arms Brackets",
     price: 28,
     image:
@@ -572,7 +572,7 @@ export const products = [
     ],
   },
   {
-    id: 40,
+    id: 37,
     name: "90 degree quad Straight Arms Brackets",
     price: 28,
     image:
@@ -586,7 +586,7 @@ export const products = [
     ],
   },
   {
-    id: 41,
+    id: 38,
     name: "90 Degree Wall Mount Brackets",
     price: 30,
     image: process.env.PUBLIC_URL + "/products/accessories/90wallmount.jpg",
@@ -595,7 +595,7 @@ export const products = [
     images: [process.env.PUBLIC_URL + "/products/accessories/90wallmount.jpg"],
   },
   {
-    id: 42,
+    id: 39,
     name: "90 Degree H‑type Wall Mount Brackets",
     price: 38,
     image: process.env.PUBLIC_URL + "/products/accessories/90htypemount.jpg",
@@ -604,7 +604,7 @@ export const products = [
     images: [process.env.PUBLIC_URL + "/products/accessories/90htypemount.jpg"],
   },
   {
-    id: 43,
+    id: 40,
     name: "90 Degree L-shape Mount Base 4inch",
     price: 38,
     image: process.env.PUBLIC_URL + "/products/accessories/90Lshapebase4.jpg",
@@ -615,7 +615,7 @@ export const products = [
     ],
   },
   {
-    id: 44,
+    id: 41,
     name: "pole side mount (For Square Poles)",
     price: 28,
     image:
@@ -629,7 +629,7 @@ export const products = [
     ],
   },
   {
-    id: 45,
+    id: 42,
     name: " Round pole side mount ",
     price: 28,
     image:
@@ -641,7 +641,7 @@ export const products = [
     ],
   },
   {
-    id: 46,
+    id: 43,
     name: "Slip Fitter Adaptor",
     price: 28,
     image:
@@ -655,7 +655,7 @@ export const products = [
     ],
   },
   {
-    id: 47,
+    id: 44,
     name: "Square Tenon Adaptor  4/5/6 inch tenon options",
     price: 30,
     image: process.env.PUBLIC_URL + "/products/accessories/tenonsquare.webp",
@@ -667,7 +667,7 @@ export const products = [
     ],
   },
   {
-    id: 48,
+    id: 45,
     name: "oversize Square Tenon Adaptor 4/5/6 inch tenon options",
     price: 35,
     image:
@@ -683,7 +683,7 @@ export const products = [
     ],
   },
   {
-    id: 47,
+    id: 46,
     name: "Round Tenon Adaptor 3/4/5 inch tenon options",
     price: 30,
     image: process.env.PUBLIC_URL + "/products/accessories/roundtenon.webp",
