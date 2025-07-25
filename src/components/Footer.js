@@ -5,9 +5,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaFacebook,
-  FaTwitter,
   FaInstagram,
-  FaLinkedin,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -21,14 +19,9 @@ const Footer = () => {
             <a href="https://www.facebook.com/americanledprocom/">
               <FaFacebook />
             </a>
-            <a href="#">
-              <FaTwitter />
-            </a>
+
             <a href="https://www.instagram.com/americanledproofficial/">
               <FaInstagram />
-            </a>
-            <a href="#">
-              <FaLinkedin />
             </a>
           </div>
         </div>

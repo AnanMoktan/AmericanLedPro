@@ -1,6 +1,7 @@
 // src/components/ProductCard.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const ProductCard = ({ product }) => {
   const [showModal, setShowModal] = useState(false);
@@ -21,8 +22,7 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="product-info">
           <h3>{product.name}</h3>
-          <p className="price">${product.price.toFixed(2)}</p>
-          <p className="description">{product.description}</p>
+
           <button className="view-btn" onClick={openModal}>
             View Details
           </button>
@@ -74,33 +74,56 @@ const ProductCard = ({ product }) => {
               &times;
             </button>
             <h2>{product.name}</h2>
-            <p
-              className="price"
-              style={{ fontWeight: "bold", fontSize: "1.2rem" }}
-            >
-              ${product.price.toFixed(2)}
-            </p>
             <p>{product.description}</p>
             <div
               className="modal-images"
               style={{
                 display: "flex",
+                content: "center",
+                justifyContent: "center",
                 flexWrap: "wrap",
                 gap: "10px",
                 marginTop: "10px",
               }}
             >
-              <img
-                src={product.image}
-                alt={product.name}
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "200px",
-                  objectFit: "contain",
-                }}
-              />
+              {product.images &&
+                product.images.map((img, index) => (
+                  <img
+                    key={index}
+                    src={img}
+                    alt={`${product.name} ${index + 1}`}
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "200px",
+                      objectFit: "contain",
+                      transition: "transform 0.3s ease",
+                      cursor: "pointer",
+                    }}
+                    onMouseEnter={(e) =>
+                      (e.currentTarget.style.transform = "scale(1.6)")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.style.transform = "scale(1)")
+                    }
+                  />
+                ))}
+
               {/* If product has more images, they can be rendered here */}
             </div>
+            <p>
+              To make this product yours. please call us at {"972-685-0112"} or
+              To know more about our products click below button to chat.
+            </p>
+            <button className="buy-btn  ">
+              <Link
+                to="https://t.me/Americanledpro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTelegramPlane />
+                Chat Now
+              </Link>
+            </button>
           </div>
         </div>
       )}

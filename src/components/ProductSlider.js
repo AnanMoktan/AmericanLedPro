@@ -18,7 +18,7 @@ const ProductSlider = () => {
             <img src={product.image} alt={product.name} />
             <div className="slide-info">
               <h3>{product.name}</h3>
-              <p>${product.price.toFixed(2)}</p>
+
               <Link to={`/products`} className="shop-btn">
                 Shop Now
               </Link>
