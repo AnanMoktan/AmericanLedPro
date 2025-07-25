@@ -13,7 +13,7 @@ const Header = () => {
         <div className="logo">
           <Link to="/">
             <img
-              src="/logo/amercan LED PRO.jpg"
+              src={process.env.PUBLIC_URL + "/logo/amercan LED PRO.jpg"}
               alt="American LED pro Wholesale Logo"
             />
           </Link>
