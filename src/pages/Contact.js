@@ -20,7 +20,7 @@ const Contact = () => {
           </div>
           <div className="contact-item">
             <FaPhone className="contact-icon" />
-            <span>(510) 688-4433</span>
+            <span>(469) 381-6266</span>
           </div>
           <div className="contact-item">
             <FaEnvelope className="contact-icon" />

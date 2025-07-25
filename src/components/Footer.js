@@ -82,8 +82,6 @@ const Footer = () => {
           <h4>Contact Info</h4>
           <ul className="contact-info">
             <li>
-              <FaPhone /> (510) 688-4433
-              <br />
               <FaPhone /> (972) 685-0112
               <br />
               <FaPhone /> (469) 381-6266
