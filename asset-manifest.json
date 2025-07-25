@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/american-led-wholesale/static/css/main.b21848c6.css",
+    "main.js": "/american-led-wholesale/static/js/main.3d2e738e.js",
+    "static/js/453.541bb79b.chunk.js": "/american-led-wholesale/static/js/453.541bb79b.chunk.js",
+    "static/media/Untitled-design-46.jpg": "/american-led-wholesale/static/media/Untitled-design-46.2ded6aa031da32ca5b36.jpg",
+    "index.html": "/american-led-wholesale/index.html",
+    "main.b21848c6.css.map": "/american-led-wholesale/static/css/main.b21848c6.css.map",
+    "main.3d2e738e.js.map": "/american-led-wholesale/static/js/main.3d2e738e.js.map",
+    "453.541bb79b.chunk.js.map": "/american-led-wholesale/static/js/453.541bb79b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b21848c6.css",
+    "static/js/main.3d2e738e.js"
+  ]
+}
