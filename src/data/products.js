@@ -6,41 +6,46 @@ export const products = [
     id: 1,
     name: "FLHL SERIES LED FLOOD LIGHT 100W 130lm/w 13000lm 5000k 100-277v IP65 5years warranty",
     price: 40,
-    image: "/products/flood-light/100wfl/FLHL_LED-100-1-768x763.webp",
+    image:
+      process.env.PUBLIC_URL +
+      "/products/flood-light/100wfl/FLHL_LED-100-1-768x763.webp",
     category: "flood-light",
     description:
       "The American LED Pro flhl series 100W Flood Light is a durable, high-performance outdoor lighting solution designed for both commercial and residential use. With its IP65 weatherproof rating, 100–277V wide voltage compatibility, and breather function to prevent moisture buildup, it delivers reliable illumination in all conditions. Featuring a robust aluminum body, 4mm tempered glass, and a long-lasting LED chip, this flood light ensures energy efficiency, easy installation, and minimal maintenance—backed by a 5-year warranty for peace of mind",
     images: [
-      "/products/flood-light/100wfl/FLHL_LED-100-1-768x763.webp",
-      "/products/flood-light/100wfl/FLHL_LED-100-2-555x555-1.webp",
+      process.env.PUBLIC_URL +
+        "/products/flood-light/100wfl/FLHL_LED-100-1-768x763.webp",
+      process.env.PUBLIC_URL +
+        "/products/flood-light/100wfl/FLHL_LED-100-2-555x555-1.webp",
     ],
   },
   {
     id: 2,
     name: "FLHL SERIES LED FLOOD LIGHT 200W 130lm/w 26000lm 5000k 100-277v IP65 5years warranty",
     price: 58,
-    image: "/products/flood-light/200wfl/200w1fv.webp",
+    image: process.env.PUBLIC_URL + "/products/flood-light/200wfl/200w1fv.webp",
     category: "flood-light",
     description:
       "The American LED Pro flhl series 200W Flood Light is a durable, high-performance outdoor lighting solution designed for both commercial and residential use. With its IP65 weatherproof rating, 100–277V wide voltage compatibility, and breather function to prevent moisture buildup, it delivers reliable illumination in all conditions. Featuring a robust aluminum body, 4mm tempered glass, and a long-lasting LED chip, this flood light ensures energy efficiency, easy installation, and minimal maintenance—backed by a 5-year warranty for peace of mind",
     images: [
-      "/products/flood-light/200wfl/200w1fv.webp",
-      "/products/flood-light/200wfl/200w1sv.webp",
-      "/products/flood-light/200wfl/200w1bv.webp",
+      process.env.PUBLIC_URL + "/products/flood-light/200wfl/200w1fv.webp",
+      process.env.PUBLIC_URL + "/products/flood-light/200wfl/200w1sv.webp",
+      process.env.PUBLIC_URL + "/products/flood-light/200wfl/200w1bv.webp",
     ],
   },
   {
     id: 3,
     name: "FLHL SERIES LED FLOOD LIGHT 240W 130lm/w 31200lm 5000k 100-277v 5years warranty",
     price: 95,
-    image: "/products/flood-light/240wfl/240wflnmfv.png",
+    image:
+      process.env.PUBLIC_URL + "/products/flood-light/240wfl/240wflnmfv.png",
     category: "flood-light",
     description:
       "The American LED Pro flhl series 240W Flood Light is a durable, high-performance outdoor lighting solution designed for both commercial and residential use. With its IP65 weatherproof rating, 100–277V wide voltage compatibility, and breather function to prevent moisture buildup, it delivers reliable illumination in all conditions. Featuring a robust aluminum body, 4mm tempered glass, and a long-lasting LED chip, this flood light ensures energy efficiency, easy installation, and minimal maintenance—backed by a 5-year warranty for peace of mind",
     images: [
-      "/products/flood-light/240wfl/240wflnmfv.png",
-      "/products/flood-light/240wfl/240wflnmsv.png",
-      "/products/flood-light/240wfl/240wflnmbv.png",
+      process.env.PUBLIC_URL + "/products/flood-light/240wfl/240wflnmfv.png",
+      process.env.PUBLIC_URL + "/products/flood-light/240wfl/240wflnmsv.png",
+      process.env.PUBLIC_URL + "/products/flood-light/240wfl/240wflnmbv.png",
     ],
   },
   {
