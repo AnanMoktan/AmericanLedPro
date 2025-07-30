@@ -20,7 +20,7 @@ const ProductSlider = () => {
               <h3>{product.name}</h3>
 
               <Link to={`/products`} className="shop-btn">
-                Shop Now
+                view products
               </Link>
             </div>
           </div>

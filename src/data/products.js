@@ -201,7 +201,7 @@ export const products = [
 
   {
     id: 13,
-    name: "LED LAMP CANOPY LIGHT – 140W",
+    name: "LED LAMP CANOPY LIGHT – 140W 5000k 16800lm 100-277v IP44 50000H 5years warranty",
     price: 12,
     image:
       process.env.PUBLIC_URL + "/products/canopy-light/140wcl/140wclfv.png",
@@ -216,7 +216,7 @@ export const products = [
   },
   {
     id: 14,
-    name: "LED LAMP CANOPY LIGHT – 150W",
+    name: "LED LAMP CANOPY LIGHT – 150W 5700k 18000lm 100-277v IP44 50000H 5years warranty",
     price: 12,
     image:
       process.env.PUBLIC_URL + "/products/canopy-light/150wcl/150wclfv.png",
@@ -231,7 +231,7 @@ export const products = [
   },
   {
     id: 15,
-    name: "LED LAMP CANOPY LIGHT – 240w",
+    name: "LED LAMP CANOPY LIGHT – 240w 6.5k 24000lm 100-277v IP44 50000H 5years warranty",
     price: 12,
     image:
       process.env.PUBLIC_URL + "/products/canopy-light/240wcl/240wclfv.png",
@@ -248,7 +248,7 @@ export const products = [
   // DUSK TO DAWN LIGHT (3)
   {
     id: 16,
-    name: "LED DUSK TO DAWN LIGHT / BARN LIGHT / LED YARD LIGHT – 30W, 4000 lumen, cct:5000k, life:45000H, input voltage: 100-277v",
+    name: "LED DUSK TO DAWN LIGHT / BARN LIGHT / LED YARD LIGHT – 30W, 4000 lm, 5000k, 45000H, input voltage: 100-277v",
     price: 28,
     image:
       process.env.PUBLIC_URL +
@@ -289,7 +289,7 @@ export const products = [
     description: "",
     images: [
       process.env.PUBLIC_URL + "/products/pole-light/pole2.png",
-      "/products/pole-light/pole.png",
+      process.env.PUBLIC_URL + "/products/pole-light/pole.png",
     ],
   },
 
