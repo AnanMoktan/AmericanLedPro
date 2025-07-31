@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AmericanLedPro/static/css/main.24df9752.css",
+    "main.js": "/AmericanLedPro/static/js/main.5f991138.js",
+    "static/js/453.541bb79b.chunk.js": "/AmericanLedPro/static/js/453.541bb79b.chunk.js",
+    "static/media/banner.jpg": "/AmericanLedPro/static/media/banner.cd908c862fbbf618d6ff.jpg",
+    "index.html": "/AmericanLedPro/index.html",
+    "main.24df9752.css.map": "/AmericanLedPro/static/css/main.24df9752.css.map",
+    "main.5f991138.js.map": "/AmericanLedPro/static/js/main.5f991138.js.map",
+    "453.541bb79b.chunk.js.map": "/AmericanLedPro/static/js/453.541bb79b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24df9752.css",
+    "static/js/main.5f991138.js"
+  ]
+}
