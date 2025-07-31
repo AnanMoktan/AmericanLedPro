@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "rimraf \"node_modules/.cache/gh-pages\" && npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +44,7 @@
   "devDependencies": {
     "gh": "^2.8.9",
     "gh-pages": "^6.3.0",
-    "pages": "^0.0.16"
+    "pages": "^0.0.16",
+    "rimraf": "^6.0.1"
   }
 }
